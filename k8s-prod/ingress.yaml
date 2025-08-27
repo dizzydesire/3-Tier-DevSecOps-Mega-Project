@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: adityajaiswal.com
+    - host: dizzytech.online 
       http:
         paths:
           - path: /api
@@ -27,7 +27,7 @@ spec:
                 name: frontend-svc
                 port:
                   number: 80
-    - host: www.adityajaiswal.com
+    - host: www.dizzytech.online 
       http:
         paths:
           - path: /api
@@ -46,6 +46,6 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - adityajaiswal.com
-        - www.adityajaiswal.com
+        - dizzytech.online 
+        - www.dizzytech.online 
       secretName: adityajaiswal-co-tls
