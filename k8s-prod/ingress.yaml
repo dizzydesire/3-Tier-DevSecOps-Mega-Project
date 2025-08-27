@@ -48,4 +48,4 @@ spec:
     - hosts:
         - dizzytech.online 
         - www.dizzytech.online 
-      secretName: adityajaiswal-co-tls
+      secretName: dizzyoduma-co-tls
